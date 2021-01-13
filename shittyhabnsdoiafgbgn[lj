@@ -1,22 +1,25 @@
+updated 21:31 cause im a fucking idiot and didnt update it kys ok <3
 <!DOCTYPE HTML>
 <html lang="en">
 
 <head>
-    <title>h</title>
+    <title>joy</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-    <meta name="description" content="h" />
-    <meta property="og:site_name" content="h" />
-    <meta property="og:title" content="h" />
+    <meta name="description" content="now im dissin u" />
+    <meta property="og:site_name" content="joy" />
+    <meta property="og:title" content="joy" />
     <meta property="og:type" content="website" />
-    <meta property="og:description" content="h" />
-    <meta property="og:image" content="https://joysmd.uwu.ai/assets/images/card.jpg?v5c2f4f40d" />
+    <meta property="og:description" content="now im dissin u" />
+    <meta property="og:image" content="https://joysmd.uwu.ai/assets/images/share.jpg?v572ae2360" />
     <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1280" />
-    <meta property="og:image:height" content="800" />
+    <meta property="og:image:width" content="600" />
+    <meta property="og:image:height" content="600" />
     <meta property="og:url" content="https://joysmd.uwu.ai" />
     <meta property="twitter:card" content="summary_large_image" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic" rel="stylesheet" type="text/css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon.png?v572ae2360" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png?v572ae2360" />
     <style>
         html,
         body,
@@ -231,7 +234,6 @@
         body:before {
             content: '';
             display: block;
-            background-attachment: scroll;
             position: fixed;
             top: 0;
             left: 0;
@@ -246,10 +248,12 @@
             -webkit-transform: scale(1);
             -ms-transform: scale(1);
             transform: scale(1);
-            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cfilter%20id%3D%22noise%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220.65625%200%200%200%200%200%200.859375%200%200%200%200%200%200.88671875%200%200%200%200%200%200.52734375%200%22%20%2F%3E%3C%2Ffilter%3E%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(45deg, #FFE3BA 23%, #A8D6FF 100%);
-            background-size: 512px, auto;
-            background-position: center, 0% 0%;
-            background-repeat: repeat, repeat;
+            background-attachment: scroll;
+            background-image: url('assets/images/bg.gif?v572ae2360');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: #424242;
         }
         
         body:after {
@@ -327,12 +331,9 @@
             -ms-flex-shrink: 0;
             flex-shrink: 0;
             text-align: left;
-            background-image: url('data:image/svg+xml;charset=utf8,%3Csvg%20viewBox%3D%220%200%20512%20512%22%20width%3D%22512%22%20height%3D%22512%22%20version%3D%221.1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cfilter%20id%3D%22noise%22%3E%3CfeTurbulence%20type%3D%22fractalNoise%22%20baseFrequency%3D%220.875%22%20result%3D%22noise%22%20%2F%3E%3CfeColorMatrix%20type%3D%22matrix%22%20values%3D%220.22265625%200%200%200%200%200%200.5859375%200%200%200%200%200%200.69921875%200%200%200%200%200%200.4296875%200%22%20%2F%3E%3C%2Ffilter%3E%3Crect%20filter%3D%22url%28%23noise%29%22%20x%3D%220%22%20y%3D%220%22%20width%3D%22512%22%20height%3D%22512%22%20fill%3D%22transparent%22%20opacity%3D%221%22%20%2F%3E%3C%2Fsvg%3E'), linear-gradient(45deg, #006FAD 0%, #27BAE8 100%);
-            background-size: 512px, cover;
-            background-position: center, 0% 0%;
-            background-repeat: repeat, repeat;
+            background-color: #212121;
             box-shadow: 0rem 2.25rem 5rem 0rem rgba(0, 0, 0, 0.322);
-            border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+            border-radius: 3rem 3rem 3rem 3rem;
             -moz-transition: opacity 0.75s ease 0s, -moz-transform 0.75s ease 0s;
             -webkit-transition: opacity 0.75s ease 0s, -webkit-transform 0.75s ease 0s;
             -ms-transition: opacity 0.75s ease 0s, -ms-transform 0.75s ease 0s;
@@ -348,16 +349,24 @@
             width: 30rem;
         }
         
-        #main > .inner > * {
+        #main > .inner > header {
+            margin-bottom: 0.5rem;
+        }
+        
+        #main > .inner > footer {
+            margin-top: 0.5rem;
+        }
+        
+        #main > .inner > * > * {
             margin-top: 0.5rem;
             margin-bottom: 0.5rem;
         }
         
-        #main > .inner >:first-child {
+        #main > .inner > * >:first-child {
             margin-top: 0 !important;
         }
         
-        #main > .inner >:last-child {
+        #main > .inner > * >:last-child {
             margin-bottom: 0 !important;
         }
         
@@ -387,6 +396,41 @@
             left: 50%;
             right: auto;
             margin-left: -50vw;
+        }
+        
+        #main > .inner > * > .full {
+            margin-left: calc(-3rem);
+            width: calc(100% + 6rem + 0.4725px);
+            max-width: calc(100% + 6rem + 0.4725px);
+        }
+        
+        #main > .inner > * > .full.screen {
+            width: 100vw;
+            max-width: 100vw;
+            position: relative;
+            border-radius: 0 !important;
+            left: 50%;
+            right: auto;
+            margin-left: -50vw;
+        }
+        
+        #main > .inner > .active > .full:first-child {
+            margin-top: -5rem !important;
+            border-top-left-radius: inherit;
+            border-top-right-radius: inherit;
+        }
+        
+        #main > .inner > .active {
+            border-top-left-radius: inherit;
+            border-top-right-radius: inherit;
+            border-bottom-left-radius: inherit;
+            border-bottom-right-radius: inherit;
+        }
+        
+        #main > .inner > .active > .full:last-child {
+            margin-bottom: -5rem !important;
+            border-bottom-left-radius: inherit;
+            border-bottom-right-radius: inherit;
         }
         
         body.is-loading #main {
@@ -431,11 +475,11 @@
             margin: 0.75em 0 0 1em;
         }
         
-        #text01 br + br {
+        #text04 br + br {
             margin-top: 0.675rem;
         }
         
-        #text01 {
+        #text04 {
             color: #FFFFFF;
             font-family: 'Source Sans Pro', sans-serif;
             letter-spacing: -0.075rem;
@@ -445,11 +489,11 @@
             font-weight: 300;
         }
         
-        #text01 a {
+        #text04 a {
             text-decoration: underline;
         }
         
-        #text01 a:hover {
+        #text04 a:hover {
             text-decoration: none;
         }
         
@@ -472,6 +516,50 @@
         }
         
         #text03 a:hover {
+            text-decoration: none;
+        }
+        
+        #text02 br + br {
+            margin-top: 0.675rem;
+        }
+        
+        #text02 {
+            color: #FFFFFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: -0.075rem;
+            width: 100%;
+            font-size: 3em;
+            line-height: 1.125;
+            font-weight: 300;
+        }
+        
+        #text02 a {
+            text-decoration: underline;
+        }
+        
+        #text02 a:hover {
+            text-decoration: none;
+        }
+        
+        #text01 br + br {
+            margin-top: 0.825rem;
+        }
+        
+        #text01 {
+            color: #FFFFFF;
+            font-family: 'Source Sans Pro', sans-serif;
+            letter-spacing: 0.125rem;
+            width: calc(100% + 0.125rem);
+            font-size: 1.25em;
+            line-height: 1.375;
+            font-weight: 300;
+        }
+        
+        #text01 a {
+            text-decoration: underline;
+        }
+        
+        #text01 a:hover {
             text-decoration: none;
         }
         
@@ -531,14 +619,67 @@
             display: none;
         }
         
-        #icons01 {
+        #icons02 {
             font-size: 1em;
             width: calc(100% + 0.875rem);
             margin-left: -0.4375rem;
         }
         
-        #icons01 li {
+        #icons02 li {
             margin: 0.4375rem;
+        }
+        
+        #icons02 li a {
+            border-radius: 100%;
+            width: 2em;
+            height: 2em;
+        }
+        
+        #icons02 li a svg {
+            width: 60%;
+            height: 60%;
+        }
+        
+        #icons02 a svg {
+            fill: #FFFFFF;
+        }
+        
+        #icons02 a {
+            border: solid 1px #FFFFFF;
+        }
+        
+        #icons02 a:hover {
+            border-color: #FFCE52 !important;
+        }
+        
+        #icons02 a:hover svg {
+            fill: #FFCE52 !important;
+        }
+        
+        #icons02 .n01:hover {
+            border-color: #424242 !important;
+        }
+        
+        #icons02 .n01:hover svg {
+            fill: #424242 !important;
+        }
+        
+        #icons02 .n02:hover {
+            border-color: #424242 !important;
+        }
+        
+        #icons02 .n02:hover svg {
+            fill: #424242 !important;
+        }
+        
+        #icons01 {
+            font-size: 1em;
+            width: calc(100% + 0.125rem);
+            margin-left: -0.0625rem;
+        }
+        
+        #icons01 li {
+            margin: 0.0625rem;
         }
         
         #icons01 li a {
@@ -561,11 +702,19 @@
         }
         
         #icons01 a:hover {
-            border-color: #FFCE52 !important;
+            border-color: #C2BCAC !important;
         }
         
         #icons01 a:hover svg {
-            fill: #FFCE52 !important;
+            fill: #C2BCAC !important;
+        }
+        
+        #icons01 .n01:hover {
+            border-color: #4F4F4F !important;
+        }
+        
+        #icons01 .n01:hover svg {
+            fill: #4F4F4F !important;
         }
         
         @media (max-width: 1680px) {
@@ -596,7 +745,13 @@
             #main > .inner {
                 padding: 3.5rem 2rem;
             }
-            #main > .inner > * {
+            #main > .inner > header {
+                margin-bottom: 0.5rem;
+            }
+            #main > .inner > footer {
+                margin-top: 0.5rem;
+            }
+            #main > .inner > * > * {
                 margin-top: 0.5rem;
                 margin-bottom: 0.5rem;
             }
@@ -614,7 +769,21 @@
             #main > .inner > .full.screen {
                 margin-left: -50vw;
             }
-            #text01 {
+            #main > .inner > * > .full {
+                margin-left: calc(-2rem);
+                width: calc(100% + 4rem + 0.4725px);
+                max-width: calc(100% + 4rem + 0.4725px);
+            }
+            #main > .inner > * > .full.screen {
+                margin-left: -50vw;
+            }
+            #main > .inner > .active > .full:first-child {
+                margin-top: -3.5rem !important;
+            }
+            #main > .inner > .active > .full:last-child {
+                margin-bottom: -3.5rem !important;
+            }
+            #text04 {
                 letter-spacing: -0.065625rem;
                 width: 100%;
                 font-size: 2.5em;
@@ -626,13 +795,33 @@
                 font-size: 1em;
                 line-height: 1.875;
             }
-            #icons01 {
+            #text02 {
+                letter-spacing: -0.065625rem;
+                width: 100%;
+                font-size: 2.5em;
+                line-height: 1.125;
+            }
+            #text01 {
+                letter-spacing: 0.109375rem;
+                width: calc(100% + 0.109375rem);
+                font-size: 2.5em;
+                line-height: 1.375;
+            }
+            #icons02 {
                 font-size: 1em;
                 width: calc(100% + 0.875rem);
                 margin-left: -0.4375rem;
             }
-            #icons01 li {
+            #icons02 li {
                 margin: 0.4375rem;
+            }
+            #icons01 {
+                font-size: 1em;
+                width: calc(100% + 0.125rem);
+                margin-left: -0.0625rem;
+            }
+            #icons01 li {
+                margin: 0.0625rem;
             }
         }
         
@@ -640,7 +829,13 @@
             #wrapper {
                 padding: 0.75rem 0.75rem 0.75rem 0.75rem;
             }
-            #main > .inner > * {
+            #main > .inner > header {
+                margin-bottom: 0.4375rem;
+            }
+            #main > .inner > footer {
+                margin-top: 0.4375rem;
+            }
+            #main > .inner > * > * {
                 margin-top: 0.4375rem;
                 margin-bottom: 0.4375rem;
             }
@@ -653,7 +848,13 @@
             #main > .inner {
                 padding: 2.625rem 1.5rem;
             }
-            #main > .inner > * {
+            #main > .inner > header {
+                margin-bottom: 0.375rem;
+            }
+            #main > .inner > footer {
+                margin-top: 0.375rem;
+            }
+            #main > .inner > * > * {
                 margin-top: 0.375rem;
                 margin-bottom: 0.375rem;
             }
@@ -671,18 +872,45 @@
             #main > .inner > .full.screen {
                 margin-left: -50vw;
             }
-            #text01 {
+            #main > .inner > * > .full {
+                margin-left: calc(-1.5rem);
+                width: calc(100% + 3rem + 0.4725px);
+                max-width: calc(100% + 3rem + 0.4725px);
+            }
+            #main > .inner > * > .full.screen {
+                margin-left: -50vw;
+            }
+            #main > .inner > .active > .full:first-child {
+                margin-top: -2.625rem !important;
+            }
+            #main > .inner > .active > .full:last-child {
+                margin-bottom: -2.625rem !important;
+            }
+            #text04 {
                 font-size: 2.5em;
             }
             #text03 {
                 font-size: 1em;
             }
-            #icons01 {
+            #text02 {
+                font-size: 2.5em;
+            }
+            #text01 {
+                font-size: 2.5em;
+            }
+            #icons02 {
                 width: calc(100% + 0.65625rem);
                 margin-left: -0.328125rem;
             }
-            #icons01 li {
+            #icons02 li {
                 margin: 0.328125rem;
+            }
+            #icons01 {
+                width: calc(100% + 0.09375rem);
+                margin-left: -0.046875rem;
+            }
+            #icons01 li {
+                margin: 0.046875rem;
             }
         }
     </style>
@@ -721,6 +949,12 @@
 
 <body class="is-loading">
     <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 40 40" display="none" width="0" height="0">
+        <symbol id="icon-9a8" viewBox="0 0 40 40">
+            <path d="M20.9,37L33,25.3c3-3,4.5-5.9,4.5-8.8c0-2.9-0.8-5.1-2.5-6.7c-1.6-1.6-3.9-2.4-6.8-2.4c-0.8,0-1.6,0.1-2.5,0.4 S24.1,8.5,23.3,9c-0.7,0.5-1.3,0.9-1.9,1.3c-0.5,0.4-1,0.9-1.5,1.3c-0.5-0.5-1-0.9-1.5-1.3C18,9.9,17.4,9.5,16.7,9 c-0.7-0.5-1.5-0.9-2.3-1.1s-1.7-0.4-2.5-0.4C9,7.5,6.7,8.3,5,9.9s-2.5,3.8-2.5,6.7c0,0.9,0.2,1.8,0.5,2.7c0.3,0.9,0.7,1.7,1,2.4 c0.4,0.6,0.8,1.3,1.3,1.9c0.5,0.6,0.9,1,1.1,1.3C6.7,25,6.9,25.2,7,25.3L19.1,37c0.2,0.2,0.5,0.4,0.9,0.4S20.6,37.3,20.9,37z" />
+        </symbol>
+        <symbol id="icon-93f" viewBox="0 0 40 40">
+            <path d="M28.8,33.3c0,0-1.1-1.4-2.1-2.6c4.1-1.2,5.7-3.8,5.7-3.8c-1.3,0.9-2.5,1.5-3.6,1.9c-1.6,0.7-3.1,1.1-4.6,1.4 c-3,0.6-5.8,0.4-8.2,0c-1.8-0.3-3.3-0.9-4.6-1.4c-0.7-0.3-1.5-0.6-2.3-1.1c-0.1-0.1-0.2-0.1-0.3-0.2c-0.1,0-0.1-0.1-0.1-0.1 c-0.6-0.3-0.9-0.5-0.9-0.5s1.5,2.5,5.5,3.7c-0.9,1.2-2.1,2.6-2.1,2.6c-7-0.2-9.6-4.8-9.6-4.8c0-10.1,4.5-18.4,4.5-18.4 c4.5-3.4,8.9-3.3,8.9-3.3l0.3,0.4c-5.7,1.6-8.3,4.1-8.3,4.1s0.7-0.4,1.9-0.9c3.4-1.5,6.1-1.9,7.2-2c0.2,0,0.3-0.1,0.5-0.1 C18.6,8.1,20.7,8,23,8.3c3,0.3,6.2,1.2,9.5,3c0,0-2.5-2.4-7.9-4l0.4-0.5c0,0,4.3-0.1,8.9,3.3c0,0,4.5,8.2,4.5,18.4 C38.5,28.5,35.8,33.1,28.8,33.3z M14.2,18.6c-1.8,0-3.2,1.6-3.2,3.5s1.5,3.5,3.2,3.5c1.8,0,3.2-1.6,3.2-3.5 C17.4,20.1,16,18.6,14.2,18.6z M25.7,18.6c-1.8,0-3.2,1.6-3.2,3.5s1.5,3.5,3.2,3.5c1.8,0,3.2-1.6,3.2-3.5S27.5,18.6,25.7,18.6z" />
+        </symbol>
         <symbol id="icon-907" viewBox="0 0 40 40">
             <path d="M36,20.3c0,3.5-1,6.6-3.1,9.4c-2,2.8-4.7,4.7-7.9,5.8c-0.4,0.1-0.6,0-0.8-0.1c-0.2-0.2-0.3-0.4-0.3-0.6v-4.4 c0-1.3-0.4-2.3-1.1-3c0.8-0.1,1.5-0.2,2.1-0.4c0.6-0.2,1.3-0.4,2-0.8c0.7-0.4,1.2-0.8,1.7-1.4c0.5-0.5,0.8-1.3,1.1-2.2 s0.4-2,0.4-3.1c0-1.7-0.5-3.1-1.6-4.3c0.5-1.3,0.5-2.7-0.2-4.2c-0.4-0.1-1,0-1.7,0.2c-0.7,0.3-1.4,0.6-1.9,0.9L24,12.5 c-1.3-0.4-2.6-0.5-4-0.5s-2.7,0.2-4,0.5c-0.2-0.2-0.5-0.3-0.9-0.6c-0.4-0.2-0.9-0.5-1.7-0.8c-0.8-0.3-1.4-0.4-1.8-0.3 c-0.6,1.6-0.7,3-0.1,4.2c-1.1,1.2-1.6,2.6-1.6,4.3c0,1.2,0.1,2.2,0.4,3.1s0.6,1.6,1.1,2.2s1,1,1.7,1.4c0.7,0.4,1.3,0.6,2,0.8 c0.6,0.2,1.3,0.3,2.1,0.4c-0.6,0.5-0.9,1.2-1,2.1c-0.3,0.1-0.6,0.2-0.9,0.3c-0.3,0.1-0.7,0.1-1.2,0.1c-0.5,0-0.9-0.1-1.4-0.4 c-0.5-0.3-0.8-0.7-1.2-1.3c-0.3-0.4-0.6-0.8-1-1.1c-0.4-0.3-0.8-0.4-1-0.5L9,26.5c-0.3,0-0.5,0-0.6,0.1c-0.1,0.1-0.1,0.1-0.1,0.2 c0,0.1,0.1,0.2,0.2,0.3c0.1,0.1,0.2,0.2,0.3,0.2l0.1,0.1c0.3,0.1,0.6,0.4,0.9,0.8s0.5,0.7,0.7,1.1l0.2,0.5c0.2,0.5,0.5,1,0.9,1.3 c0.4,0.3,0.9,0.5,1.4,0.6c0.5,0.1,1,0.1,1.4,0.1c0.5,0,0.9,0,1.2-0.1l0.5-0.1c0,0.5,0,1.1,0,1.9c0,0.7,0,1.1,0,1.1 c0,0.2-0.1,0.5-0.3,0.6c-0.2,0.2-0.5,0.2-0.8,0.1c-3.2-1.1-5.8-3-7.9-5.8S4,23.8,4,20.3c0-2.9,0.7-5.6,2.1-8S9.5,7.8,12,6.4 s5.1-2.1,8-2.1s5.6,0.7,8,2.1s4.4,3.4,5.8,5.8S36,17.4,36,20.3L36,20.3z" />
         </symbol>
@@ -728,16 +962,36 @@
     <div id="wrapper">
         <div id="main">
             <div class="inner">
-                <h1 id="text01">joy</h1>
-                <p id="text03">cool dev holding cool domain</p>
-                <ul id="icons01" class="icons">
-                    <li>
-                        <a class="n01" href="https://github.com/joyclensmd">
-                            <svg>
-                                <use xlink:href="#icon-907"></use>
-                            </svg><span class="label">GitHub</span></a>
-                    </li>
-                </ul>
+                <section id="home-section">
+                    <h1 id="text04">joy</h1>
+                    <p id="text03">professional skid🎿</p>
+                    <ul id="icons02" class="icons">
+                        <li>
+                            <a class="n01" href="https://github.com/joyclensmd">
+                                <svg>
+                                    <use xlink:href="#icon-907"></use>
+                                </svg><span class="label">GitHub</span></a>
+                        </li>
+                        <li>
+                            <a class="n02" href="#discord">
+                                <svg>
+                                    <use xlink:href="#icon-93f"></use>
+                                </svg><span class="label">Discord</span></a>
+                        </li>
+                    </ul>
+                </section>
+                <section id="discord-section">
+                    <h1 id="text02">my discord</h1>
+                    <h1 id="text01">jxy#2114</h1>
+                    <ul id="icons01" class="icons">
+                        <li>
+                            <a class="n01" href="#home">
+                                <svg>
+                                    <use xlink:href="#icon-9a8"></use>
+                                </svg><span class="label">Heart</span></a>
+                        </li>
+                    </ul>
+                </section>
             </div>
         </div>
     </div>
@@ -1036,7 +1290,178 @@
                     }, 1000);
                 }, 100);
             });
-            loadElements(document.body);
+            (function() {
+                var initialSection, initialScrollPoint, initialId, header, footer, name, hideHeader, hideFooter, h, e, ee, k, locked = false,
+                    doNext = function() {
+                        var section;
+                        section = $('#main > .inner > section.active').nextElementSibling;
+                        if (!section || section.tagName != 'SECTION') return;
+                        location.href = '#' + section.id.replace(/-section$/, '');
+                    },
+                    doPrevious = function() {
+                        var section;
+                        section = $('#main > .inner > section.active').previousElementSibling;
+                        if (!section || section.tagName != 'SECTION') return;
+                        location.href = '#' + (section.matches(':first-child') ? '' : section.id.replace(/-section$/, ''));
+                    },
+                    doFirst = function() {
+                        var section;
+                        section = $('#main > .inner > section:first-of-type');
+                        if (!section || section.tagName != 'SECTION') return;
+                        location.href = '#' + section.id.replace(/-section$/, '');
+                    },
+                    doLast = function() {
+                        var section;
+                        section = $('#main > .inner > section:last-of-type');
+                        if (!section || section.tagName != 'SECTION') return;
+                        location.href = '#' + section.id.replace(/-section$/, '');
+                    },
+                    sections = {};
+                window._next = doNext;
+                window._previous = doPrevious;
+                window._first = doFirst;
+                window._last = doLast;
+                window._scrollToTop = function() {
+                    var section, id;
+                    scrollToElement(null);
+                    if (!!(section = $('section.active'))) {
+                        id = section.id.replace(/-section$/, '');
+                        if (id == 'home') id = '';
+                        history.pushState(null, null, '#' + id);
+                    }
+                };
+                if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+                header = $('#header');
+                footer = $('#footer');
+                h = thisHash();
+                if (h && !h.match(/^[a-zA-Z0-9\-]+$/)) h = null;
+                if (e = $('[data-scroll-id="' + h + '"]')) {
+                    initialScrollPoint = e;
+                    initialSection = initialScrollPoint.parentElement;
+                    initialId = initialSection.id;
+                } else if (e = $('#' + (h ? h : 'home') + '-section')) {
+                    initialScrollPoint = null;
+                    initialSection = e;
+                    initialId = initialSection.id;
+                }
+                if (!initialSection) {
+                    initialScrollPoint = null;
+                    initialSection = $('#' + 'home' + '-section');
+                    initialId = initialSection.id;
+                    history.replaceState(undefined, undefined, '#');
+                }
+                name = (h ? h : 'home');
+                hideHeader = name ? ((name in sections) && ('hideHeader' in sections[name]) && sections[name].hideHeader) : false;
+                hideFooter = name ? ((name in sections) && ('hideFooter' in sections[name]) && sections[name].hideFooter) : false;
+                if (header && hideHeader) {
+                    header.classList.add('hidden');
+                    header.style.display = 'none';
+                }
+                if (footer && hideFooter) {
+                    footer.classList.add('hidden');
+                    footer.style.display = 'none';
+                }
+                ee = $$('#main > .inner > section:not([id="' + initialId + '"])');
+                for (k = 0; k < ee.length; k++) {
+                    ee[k].className = 'inactive';
+                    ee[k].style.display = 'none';
+                }
+                initialSection.classList.add('active');
+                loadElements(initialSection);
+                scrollToElement(null, 'instant');
+                on('load', function() {
+                    if (initialScrollPoint) scrollToElement(initialScrollPoint, 'instant');
+                });
+                on('hashchange', function(event) {
+                    var section, scrollPoint, id, sectionHeight, currentSection, currentSectionHeight, name, hideHeader, hideFooter, h, e, ee, k;
+                    if (locked) return false;
+                    h = thisHash();
+                    if (h && !h.match(/^[a-zA-Z0-9\-]+$/)) return false;
+                    if (e = $('[data-scroll-id="' + h + '"]')) {
+                        scrollPoint = e;
+                        section = scrollPoint.parentElement;
+                        id = section.id;
+                    } else if (e = $('#' + (h ? h : 'home') + '-section')) {
+                        scrollPoint = null;
+                        section = e;
+                        id = section.id;
+                    } else {
+                        scrollPoint = null;
+                        section = $('#' + 'home' + '-section');
+                        id = section.id;
+                        history.replaceState(undefined, undefined, '#');
+                    }
+                    if (!section) return false;
+                    if (!section.classList.contains('inactive')) {
+                        if (scrollPoint) scrollToElement(scrollPoint);
+                        else scrollToElement(null);
+                        return false;
+                    } else {
+                        locked = true;
+                        if (location.hash == '#home') history.replaceState(null, null, '#');
+                        name = (section ? section.id.replace(/-section$/, '') : null);
+                        hideHeader = name ? ((name in sections) && ('hideHeader' in sections[name]) && sections[name].hideHeader) : false;
+                        hideFooter = name ? ((name in sections) && ('hideFooter' in sections[name]) && sections[name].hideFooter) : false;
+                        if (header && hideHeader) {
+                            header.classList.add('hidden');
+                            header.style.display = 'none';
+                        }
+                        if (footer && hideFooter) {
+                            footer.classList.add('hidden');
+                            footer.style.display = 'none';
+                        }
+                        currentSection = $('#main > .inner > section:not(.inactive)');
+                        currentSection.classList.add('inactive');
+                        currentSection.classList.remove('active');
+                        currentSection.style.display = 'none';
+                        unloadElements(currentSection);
+                        if (header && !hideHeader) {
+                            header.style.display = '';
+                            header.classList.remove('hidden');
+                        }
+                        if (footer && !hideFooter) {
+                            footer.style.display = '';
+                            footer.classList.remove('hidden');
+                        }
+                        section.classList.remove('inactive');
+                        section.classList.add('active');
+                        section.style.display = '';
+                        trigger('resize');
+                        loadElements(section);
+                        if (scrollPoint) scrollToElement(scrollPoint, 'instant');
+                        else scrollToElement(null, 'instant');
+                        locked = false;
+                    }
+                    return false;
+                });
+                on('click', function(event) {
+                    var t = event.target,
+                        tagName = t.tagName.toUpperCase();
+                    switch (tagName) {
+                        case 'IMG':
+                        case 'SVG':
+                        case 'USE':
+                        case 'U':
+                        case 'STRONG':
+                        case 'EM':
+                        case 'CODE':
+                        case 'S':
+                        case 'MARK':
+                        case 'SPAN':
+                            while (!!(t = t.parentElement))
+                                if (t.tagName == 'A') break;
+                            if (!t) return;
+                            break;
+                        default:
+                            break;
+                    }
+                    if (t.tagName == 'A' && t.getAttribute('href').substr(0, 1) == '#' && t.hash == window.location.hash) {
+                        event.preventDefault();
+                        history.replaceState(undefined, undefined, '#');
+                        location.replace(t.hash);
+                    }
+                });
+            })();
             var style, sheet, rule;
             style = document.createElement('style');
             style.appendChild(document.createTextNode(''));
